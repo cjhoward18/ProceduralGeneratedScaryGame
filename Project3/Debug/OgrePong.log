@@ -1,0 +1,12 @@
+﻿Build started 3/30/2016 3:28:29 AM.
+     1>Project "C:\Users\Kyle\Documents\USF\Senior year\Game Engineering\OgrePongAssignment\OgrePong\OgrePong.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /I"C:\Users\Kyle\OgreSDK_vc11_v1-9-0/include/OGRE/Overlay" /I"C:\Users\Kyle\OgreSDK_vc11_v1-9-0/boost/" /I"C:\Users\Kyle\OgreSDK_vc11_v1-9-0/include/OIS" /I"C:\Users\Kyle\OgreSDK_vc11_v1-9-0/include/OGRE" /I"C:\Users\Kyle\OgreSDK_vc11_v1-9-0/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt World.cpp
+         World.cpp
+     1>c:\users\kyle\documents\usf\senior year\game engineering\ogrepongassignment\ogrepong\world.cpp(209): error C2228: left of '.getWorldBoundingBox' must have class/struct/union
+     1>c:\users\kyle\documents\usf\senior year\game engineering\ogrepongassignment\ogrepong\world.cpp(209): error C2228: left of '.intersects' must have class/struct/union
+     1>Done Building Project "C:\Users\Kyle\Documents\USF\Senior year\Game Engineering\OgrePongAssignment\OgrePong\OgrePong.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:24.43

@@ -1,0 +1,188 @@
+GameTitle
+{
+    zorder 100
+	
+    container Panel(GameTitle/Panel)
+    {
+      metrics_mode relative
+
+      left 0.1
+      top 0.1
+      width 0.2
+      height 0.4
+	  
+		element TextArea(GameTitle/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.10
+         colour 1 1 1
+         caption 420 PROCEDURAL
+		}
+    }
+}
+
+Battery
+{
+    zorder 200
+	
+    container Panel(Battery/Panel)
+    {
+      metrics_mode relative
+
+      left 0.12
+      top 0.25
+      width 0.1
+      height 0.2
+
+		element TextArea(Battery/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top .6
+         font_name BlueHighwayBig
+         char_height 0.10
+         colour 0 1 0.4
+         caption Battery: 1000
+		}
+    }
+}
+
+Level
+{
+    zorder 200
+	
+    container Panel(Level/Panel)
+    {
+      metrics_mode relative
+
+      left 0.6
+      top 0.25
+      width 0.1
+      height 0.2
+
+		element TextArea(Level/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top .6
+         font_name BlueHighwayBig
+         char_height 0.10
+         colour 0 0.6 1
+         caption Level: 1
+		}
+    }
+}
+
+PlayButton
+{
+    zorder 100
+	
+    container Panel(PlayButton/Panel)
+    {
+      metrics_mode relative
+
+      left 0.12
+      top 0.25
+      width 0.1
+      height 0.2
+	  
+		element TextArea(PlayButton/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.10
+         colour 0 1 0.4
+         caption > PLAY <
+		}
+    }
+}
+
+RestartButton
+{
+    zorder 200
+	
+    container Panel(RestartButton/Panel)
+    {
+      metrics_mode relative
+
+      left 0.12
+      top 0.35
+      width 0.1
+      height 0.2
+	  
+		element TextArea(RestartButton/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.1
+         colour 0 0.6 1
+         caption   Restart  
+		}
+    }
+}
+
+ExitButton
+{
+    zorder 200
+	
+    container Panel(ExitButton/Panel)
+    {
+      metrics_mode relative
+
+      left 0.12
+      top 0.45
+      width 0.1
+      height 0.2
+	  
+		element TextArea(ExitButton/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.1
+         colour 1 0.4 0
+         caption   EXIT  
+		}
+    }
+}
+
+Instructions
+{
+    zorder 200
+	
+    container Panel(Instructions/Panel)
+    {
+      metrics_mode relative
+
+      left 0.45
+      top 0.25
+      width 0.35
+      height 0.5
+	  
+		element TextArea(Instructions/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.05
+         colour 1 1 1
+         caption FIND THE LADDER TO THE NEXT LEVEL. \n\n AVOID THE MONSTERS. \n\n WASD TO MOVE \n SPACE TO SPRINT \n F TO TOGGLE FLASHLIGHT \n\n
+		}
+    }
+}

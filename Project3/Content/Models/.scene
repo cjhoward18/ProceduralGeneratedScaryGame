@@ -1,0 +1,58 @@
+<scene export_time="1462757681.263586" exported_by="cjhoward" formatVersion="1.0.1" previous_export_time="1462757603.676148" >
+  <nodes >
+    <node name="chest1_Cube" >
+      <position x="0.000000" y="0.000000" z="-0.000000" />
+      <rotation qw="0.707107" qx="0.707107" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="False" anisotropic_friction="False" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="chest1_Cube.mesh" name="chest1_Cube" physics_type="STATIC" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="Lamp" >
+      <position x="4.076245" y="5.903862" z="-1.005454" />
+      <rotation qw="0.570947" qx="0.169076" qy="0.755880" qz="-0.272171" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" powerScale="1.0" shadow="true" type="point" >
+        <position x="4.076245" y="5.903862" z="-1.005454" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+        <colourDiffuse b="1.0" g="1.0" r="1.0" />
+        <colourSpecular b="1.0" g="1.0" r="1.0" />
+        <colourShadow b="1.0" g="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="7.481132" y="5.343665" z="6.507640" />
+      <rotation qw="0.781600" qx="0.481707" qy="0.334251" qz="-0.212922" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" farPlaneDist="100.0" near="0.10000000149011612" nearPlaneDist="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\cjhoward.CSLABS2\Documents\Project3\Material.002.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\cjhoward.CSLABS2\Documents\Project3\None.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\cjhoward.CSLABS2\Documents\Project3\Material.001.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient b="0.0" g="0.0" r="0.0" />
+    <colourDiffuse b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>
